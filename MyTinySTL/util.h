@@ -11,7 +11,7 @@ namespace mystl
 {
 
     // move
-    // 将传入参数转换未右值引用
+    // 将传入参数转换为右值引用
     // 通过static_cast将类型转换为去掉引用后的类型的右值引用
     // 使用std::remove_reference来确保不管T是左值引用还是右值引用，都能返回右值引用
     template<class T>

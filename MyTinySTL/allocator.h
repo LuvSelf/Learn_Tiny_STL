@@ -66,6 +66,7 @@ namespace mystl
         static void deallocate(T *ptr, size_type n);
 
         // ======================= 对象生命周期管理 =======================
+        
         static void construct(T *ptr);
         static void construct(T *ptr, const T &value);
         static void construct(T *ptr, T &&value);
@@ -80,7 +81,6 @@ namespace mystl
     /**
      * @brief 分配单个对象的内存
      * @return 指向未初始化内存的指针
-     *
      * @note 等价于 operator new(sizeof(T))
      */
     template<class T>
