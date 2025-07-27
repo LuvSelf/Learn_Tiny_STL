@@ -1,7 +1,10 @@
 ﻿#ifndef MYTINYSTL_UTIL_H_
 #define MYTINYSTL_UTIL_H_
 
-// 这个文件包含一些通用工具，包括 move, forward, swap 等函数，以及 pair 等
+/**
+ * @brief util.h
+ * @note 一些通用工具，包括 move, forward, swap 等函数，以及 pair 等
+ */
 
 #include <cstddef>
 

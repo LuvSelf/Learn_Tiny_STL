@@ -1,5 +1,10 @@
 #pragma once
 
+/**
+ * @brief exceptdef.h
+ * @note 异常处理机制
+ */
+
 #include <stdexcept>
 // 定义了一组标准异常类，用于处理运行时错误。
 // 与断言不同，异常处理允许程序在错误发生时继续执行，而不是立即终止。
