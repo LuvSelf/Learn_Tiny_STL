@@ -1,7 +1,12 @@
 #ifndef MYTINYSTL_STREAM_ITERATOR_H_
 #define MYTINYSTL_STREAM_ITERATOR_H_
 
-#include "basic_string.h"
+/**
+ * @brief stream_iterator.h
+ * @note 定义了istream_iterator和ostream_iterator类
+ */
+
+#include "cc_Containers/basic_string.h"
 
 namespace mystl
 {

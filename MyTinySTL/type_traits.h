@@ -1,7 +1,10 @@
 ﻿#ifndef MYTINYSTL_TYPE_TRAITS_H_
 #define MYTINYSTL_TYPE_TRAITS_H_
 
-// 这个头文件用于在编译期提取和操作类型信息
+/**
+ * @brief type_traits.h
+ * @note 这个头文件用于在编译期提取和操作类型信息
+ */
 
 // 使用标准type_traits头文件，类型萃取
 #include <type_traits>
