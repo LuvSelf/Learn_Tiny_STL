@@ -71,9 +71,12 @@ namespace mystl
         allocator_type get_allocator() { return data_allocator(); }
 
     private:
-        iterator begin_;// 表示目前使用空间的头部
-        iterator end_;  // 表示目前使用空间的尾部
-        iterator cap_;  // 表示目前储存空间的尾部
+        // 表示目前使用空间的头部
+        iterator begin_;
+        // 表示目前使用空间的尾部
+        iterator end_;
+        // 表示目前储存空间的尾部
+        iterator cap_;
 
     public:
         /**
@@ -353,7 +356,7 @@ namespace mystl
             {
                 mystl::copy(rhs.begin(), rhs.begin() + size(), begin_);
                 mystl::uninitialized_copy(rhs.begin() + size(), rhs.end(), end_);
-                //cap_ = end_ = begin_ + len;
+                // cap_ = end_ = begin_ + len;
                 end_ = begin_ + len;
             }
         }

@@ -132,9 +132,6 @@ namespace mystl
             mystl::destroy(buffer, buffer + len);
             free(buffer);
         }
-        // 禁用拷贝（临时缓冲区应为独占所有权）
-        temporary_buffer(const temporary_buffer &) = delete;
-        temporary_buffer &operator=(const temporary_buffer &) = delete;
 
     public:
         ptrdiff_t size() const noexcept { return len; }

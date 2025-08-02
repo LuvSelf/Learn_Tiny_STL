@@ -6,7 +6,7 @@
  * @note 定义了istream_iterator和ostream_iterator类
  */
 
-#include "cc_Containers/basic_string.h"
+#include "basic_string.h"
 
 namespace mystl
 {
